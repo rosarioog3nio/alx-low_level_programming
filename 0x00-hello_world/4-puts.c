@@ -4,6 +4,7 @@
 * main - print a simple message using puts
 *
 *Description: print a message using puts
+*Return: Always 0 (Success)
 */
 
 int main(void)
