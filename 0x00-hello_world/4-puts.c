@@ -3,7 +3,7 @@
 /*
 * main - print a simple message using puts
 *
-*Description: print the "Programming is like building a multilingual puzzle using puts
+*Description: print a message using puts
 */
 
 int main(void)
