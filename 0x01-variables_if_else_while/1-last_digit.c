@@ -4,10 +4,16 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+*main - print last digit of a given number "n"
+*
+*Description: for a given int "n" print the last digit
+*/
 int main(void)
 {
 	int n;
 	int lastDigit;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
@@ -15,7 +21,7 @@ int main(void)
 	printf("Last digit of %d is ", n);
 	if (lastDigit > 5)
 	{
-		printf("%d and is greater that 5\n", lastDigit);
+		printf("%d and is greater than 5\n", lastDigit);
 	}
 	else if (lastDigit == 0)
 	{
