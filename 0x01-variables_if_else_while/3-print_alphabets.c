@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
-*
 *main - print alphABET
 *
 *Description: Print the alphabet in both lower and upper case
@@ -13,6 +12,7 @@ int main(void)
 {
 	int ch = 'a';
 	int cH = 'A';
+
 	while (ch <= 'z')
 	{
 		putchar(ch);
@@ -24,6 +24,7 @@ int main(void)
 		putchar(cH);
 		cH++;
 	}
+
 	putchar('\n');
 	return(0);
 
