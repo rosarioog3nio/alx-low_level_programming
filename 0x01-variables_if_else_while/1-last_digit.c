@@ -8,6 +8,8 @@
 *main - print last digit of a given number "n"
 *
 *Description: for a given int "n" print the last digit
+*
+*Return: Always 0 (Success)
 */
 int main(void)
 {
