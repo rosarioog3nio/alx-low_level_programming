@@ -7,14 +7,15 @@
 *
 *Return: Always 0 (Success)_
 */
-
 int main(void)
 {
-	char chr;
-	for (chr = 'a'; chr <= 'z'; chr++)
+	int ch = 'a';
+
+	while (ch <= 'z')
 	{
-		putchar(chr);
-		printf("\n");
+		putchar(ch);
+		ch++;
 	}
-	return(0);
+	putchar('\n');
+	return (0);
 }
