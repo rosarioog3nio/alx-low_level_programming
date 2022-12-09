@@ -9,17 +9,20 @@
 *Return: Always 0 (Success)
 */
 
-int main()
+int main(void)
 {
-	int ch = 'a', CH = 'A';
-	while (ch <= 'z');
+	int ch = 'a';
+	int cH = 'A';
+	while (ch <= 'z')
 	{
 		putchar(ch);
+		ch++;
 	}
 
-	while (CH <= 'Z');
+	while (cH <= 'Z')
 	{
-		putchar(CH);
+		putchar(cH);
+		cH++;
 	}
 	putchar('\n');
 	return(0);
