@@ -8,9 +8,10 @@
 *Return: Always Success (0)
 */
 
-int main()
+int main(void)
 {
 	int n;
+
 	while (n < 10)
 	{
 		printf("%d", n);
