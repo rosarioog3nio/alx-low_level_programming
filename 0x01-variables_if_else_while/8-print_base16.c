@@ -7,7 +7,6 @@
 *
 *Return: Success (0)
 */
-\
 int main(void)
 {
 	int num = '0'; /*Initialize num to 0*/
