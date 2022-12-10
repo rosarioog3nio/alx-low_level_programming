@@ -8,7 +8,7 @@
 *Return: Success (0)
 */
 \
-int main()
+int main(void)
 {
 	int num = '0'; /*Initialize num to 0*/
 	char letter = 'a'; /*Initialize letter to a*/
@@ -23,9 +23,6 @@ int main()
 		putchar(letter);
 		letter++;
 	}
-
 	putchar('\n');
-
 	return (0);
-
 }
