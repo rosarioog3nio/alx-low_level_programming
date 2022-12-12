@@ -10,11 +10,8 @@
 
 int main(void)
 {
-	char str1[52];
 
-	strcpy(str1, "Programming is like building a multilingual puzzle\n");
-	puts(str1);
-	fprintf(stderr, "");
-
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
+
 }
