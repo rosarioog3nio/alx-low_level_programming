@@ -9,7 +9,7 @@
 *Return: Length of thew string
 */
 
-int void_puts(char *str)
+void _puts(char *str)
 {
 	int i = 0;
 
