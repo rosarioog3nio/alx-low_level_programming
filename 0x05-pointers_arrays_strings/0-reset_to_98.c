@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
-*reset_to_98 - takes a pointer to an int as parameter and updates the value it points to
+*reset_to_98 - takes a pointer to an int as parameter and updates the value
 *
-*Description: see the the line above
+*@n: see the the line above
 *
 *Return: Always 0 (Success)
 */
