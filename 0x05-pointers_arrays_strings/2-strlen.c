@@ -3,14 +3,20 @@
 #include <string.h>
 
 /**
-*int_strlen - retun the length of a scring
+*_strlen - retun the length of a scring
 *
 *@s: the string pointer
 *
-*Return: nothing
+*Return: Always int lenth of string
 */
 
-int_strlen(char *s)
+int _strlen(char *s)
 {
-	strlen(*s);
+	int length = 0;
+
+	while (s[length])
+	{
+		length++;
+	}
+	return (length);
 }
